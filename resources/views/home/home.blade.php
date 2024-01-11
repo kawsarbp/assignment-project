@@ -217,7 +217,7 @@
     <div class="my-5 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="feature-box">
                         <div class="feature-icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
@@ -228,7 +228,7 @@
                         <div class="feature-des mb-3">Get an instant quote using our calculator.</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="feature-box">
                         <div class="feature-icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
@@ -240,7 +240,7 @@
                         <div class="feature-des mb-3">Get an OTP by confirming your identity.</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="feature-box">
                         <div class="feature-icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
@@ -252,7 +252,7 @@
                         <div class="feature-des mb-3">Please check transaction status for next day cash payouts and transfers to any bank across Bangladesh.</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="feature-box">
                         <div class="feature-icon mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
@@ -353,10 +353,23 @@
                 <img class="about-feature-img" src="{{ asset('assets/img/customer_care.jpg') }}" alt="">
             </div>
         </div>
-
     </div>
 </section>
 
+<section id="client-testimonial">
+    <div class="container">
+        <div class="testimonial-text mb-5">Client Testimonials</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="testimonial-box">
+                    <div class="mb-3"><img class="testimonial-img" src="{{ asset('assets/img/testimonial-1.png') }}" alt="..."></div>
+                    <div class="testimonial-des"><i>Sunnah money transfer app is user-friendly and secure for sending money to Bangladesh.</i></div>
+                    <div class="client-name my-4">ZAHED AHMED</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 

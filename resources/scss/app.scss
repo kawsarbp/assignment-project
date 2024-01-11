@@ -241,6 +241,27 @@ $white_color: #fff;
     }
 }
 
+#client-testimonial{
+    margin: 40px 0;
+    .testimonial-text{
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+        color: $primary-color !important;
+    }
+    .testimonial-box{
+        text-align: center;
+        .testimonial-img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid $primary-color;
+        }
+        .client-name{
+            font-weight: 500;
+        }
+    }
+}
 
 
 
