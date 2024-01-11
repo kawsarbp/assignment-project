@@ -135,6 +135,7 @@ $white_color: #fff;
 
 .navbar{
     margin-top: -3px;
+    box-shadow: 0px 1px 7px $primary-color;
     .mynav{
         color: $primary-color !important;
         border-bottom: 2px solid #F8F9FA;
@@ -163,6 +164,88 @@ $white_color: #fff;
         object-fit: contain;
     }
 }
+
+//banner section start
+#banner-section{
+    margin-top: 113px;
+    background: url("../../public/assets/img/money-around-world.jpg");
+    width: 100%;
+    min-height: 500px;
+    .overlay{
+        background: rgba($primary-color,.3);
+        width: 100%;
+        min-height: 500px;
+        .banner-heading{
+            color: $white_color !important;
+            font-size: 35px;
+            font-weight: 500;
+        }
+        .banner-description{
+            color: $white_color !important;
+            font-weight: 400;
+        }
+        .get-start-btn{
+            background: $primary-color;
+            color: $white_color !important;
+        }
+    }
+}
+//banner section end
+#feature_section{
+    .feature-box{
+        text-align: center;
+        padding: 25px 0;
+        overflow: auto;
+        border: 1px solid #fff;
+        box-shadow: 6px 8px 14px #f1f1f1;
+        transition: .2s;
+        height: 260px;
+        .feature-icon{
+            color: $primary-color !important;
+            svg{
+                height: 35px;
+                width: 35px;
+            }
+        }
+        .feature-heading{
+            color: $primary-color !important;
+            font-weight: 500;
+        }
+        .feature-des{
+            text-transform: capitalize;
+        }
+        &:hover{
+            box-shadow: none;
+            border: 1px solid #f1f1f1;
+        }
+    }
+}
+
+#about-feature{
+    .about-feature-img{
+        width: 100%;
+        height: auto;
+    }
+    .feature-download-img{
+        width: 150px;
+        height: auto;
+    }
+    .feature-download-text{
+        font-weight: 500;
+        font-size: 30px;
+        margin: 14px 0;
+    }
+    .customer-service{
+        font-weight: 500;
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
 
 
 
