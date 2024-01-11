@@ -263,6 +263,27 @@ $white_color: #fff;
     }
 }
 
+#footer{
+    background: $primary-color;
+    color: $white_color !important;
+    .footer-img{
+        width: 80%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .useful-link-text{
+        font-weight: 500;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .useful-link{
+        margin: 12px 0;
+        a{
+            color: #fff !important;
+            text-decoration: none;
+        }
+    }
+}
 
 
 
