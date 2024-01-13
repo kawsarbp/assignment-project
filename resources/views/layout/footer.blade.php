@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
-                <div><img class="footer-img" src="{{ asset('assets/img/logo.png') }}" alt=""></div>
+                <div><img class="footer-img"  src="{{ asset('assets/img/logo.png') }}" alt=""></div>
             </div>
             <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
                 <div class="useful-link-text">Useful Links</div>

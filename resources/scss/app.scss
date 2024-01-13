@@ -308,7 +308,34 @@ $white_color: #fff;
     right: 0;
 }
 .mymargin{
-    margin-top: 113px;
+    margin-top: 125px;
+}
+
+.contact-section{
+    background: #f1f1f1;
+    .contact-box{
+        background: $white_color;
+        padding: 18px;
+        border-radius: 4px;
+        .get-touch-text{
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .address-icon{
+            svg{
+                height: 23px;
+                width: 23px;
+            }
+            margin-right: 12px;
+        }
+    }
+    .contact-box-img{
+        img{
+            height: 270px;
+        }
+    }
 }
 
 
