@@ -374,10 +374,10 @@
 <footer id="footer" class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
                 <div><img class="footer-img" src="{{ asset('assets/img/logo.png') }}" alt=""></div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
                 <div class="useful-link-text">Useful Links</div>
                 <div>
                     <div class="useful-link">
@@ -427,7 +427,7 @@
                         </a></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
                 <div class="useful-link-text">Our Services</div>
                 <div>
                     <div class="useful-link">
@@ -454,7 +454,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
                 <div><img class="footer-img" src="{{ asset('assets/img/newlogo.png') }}" alt=""></div>
             </div>
         </div>
