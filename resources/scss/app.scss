@@ -285,6 +285,9 @@ $white_color: #fff;
     }
 }
 
+.zindextop{
+    z-index: 999999 !important;
+}
 .slick-arrow {
     z-index: 9999;
     top: 50%;
@@ -304,7 +307,9 @@ $white_color: #fff;
 .slick-next{
     right: 0;
 }
-
+.mymargin{
+    margin-top: 113px;
+}
 
 
 
