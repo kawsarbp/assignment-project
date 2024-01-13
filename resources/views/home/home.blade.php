@@ -8,6 +8,9 @@
     <title>world wide services</title>
     @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
+    <script src="{{ asset('assets/jquery/jquery-3.7.1.min.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 </head>
 <body>
 
@@ -359,10 +362,17 @@
 <section id="client-testimonial">
     <div class="container">
         <div class="testimonial-text mb-5">Client Testimonials</div>
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row mycarousel">
+            <div class="col-md-12 ">
                 <div class="testimonial-box">
-                    <div class="mb-3"><img class="testimonial-img" src="{{ asset('assets/img/testimonial-1.png') }}" alt="..."></div>
+                    <div class="mb-3 d-flex justify-content-center"><img class="testimonial-img" src="{{ asset('assets/img/testimonial-1.png') }}" alt="..."></div>
+                    <div class="testimonial-des"><i>Sunnah money transfer app is user-friendly and secure for sending money to Bangladesh.</i></div>
+                    <div class="client-name my-4">ZAHED AHMED</div>
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <div class="testimonial-box">
+                    <div class="mb-3  d-flex justify-content-center"><img class="testimonial-img" src="{{ asset('assets/img/testimonial-1.png') }}" alt="..."></div>
                     <div class="testimonial-des"><i>Sunnah money transfer app is user-friendly and secure for sending money to Bangladesh.</i></div>
                     <div class="client-name my-4">ZAHED AHMED</div>
                 </div>
@@ -370,6 +380,7 @@
         </div>
     </div>
 </section>
+
 
 <footer id="footer" class="py-5">
     <div class="container">
@@ -462,7 +473,28 @@
 </footer>
 
 <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.mycarousel').slick({
+            infinite: true,
+            speed: 300,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            prevArrow: `<div class="slick-arrow slick-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                            </svg>
+                        </div>`,
+            nextArrow: `<div class="slick-arrow slick-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                            </svg>
+                        </div>`
+        });
+    });
+</script>
 </body>
 
 </html>

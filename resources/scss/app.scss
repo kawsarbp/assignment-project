@@ -285,6 +285,25 @@ $white_color: #fff;
     }
 }
 
+.slick-arrow {
+    z-index: 9999;
+    top: 50%;
+    position: absolute !important;
+    width: auto !important;
+    transform: translateY(-50%);
+    svg{
+        cursor: pointer;
+        color: $primary-color;
+        width: 30px;
+        height: 30px;
+    }
+}
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 0;
+}
 
 
 
