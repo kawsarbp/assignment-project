@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="my-5">Why you should choose us?</h2>
+            <h2 class="mt-4 mb-3">Why you should choose us?</h2>
 
             <div class="row">
                 <div class="col-lg-6 my-3">

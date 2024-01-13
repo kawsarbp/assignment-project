@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 pt-5">
-                        <h2>content here</h2>
+                        <h2>Calculate Here</h2>
                     </div>
                 </div>
             </div>
