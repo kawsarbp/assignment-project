@@ -2,16 +2,16 @@
 <footer id="footer" class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
+            <div class="col-lg-4 col-md-6 mt-5  text-center text-md-start">
                 <div><img class="footer-img"  src="{{ asset('assets/img/logo.png') }}" alt=""></div>
                 <br>
                 <div>
                     <h4 class="text-white text-uppercase">Our Newsletter</h4>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <div>
-                            <input type="text" class="form-control rounded-0">
+                    <div class="btn-group w-100" role="group" aria-label="Basic example">
+                        <div class="w-100">
+                            <input type="text" class="form-control rounded-0 w-100">
                         </div>
-                        <button type="button" class="btn btn-primary">Subscribe</button>
+                        <button type="button" class="btn btn-primary flex-grow-1">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                 <div class="useful-link-text">Useful Links</div>
                 <div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('home') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -28,7 +28,7 @@
                             Home
                         </a></div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('about') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -38,7 +38,7 @@
                         </a>
                     </div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('service') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('terms') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mt-5  text-center text-md-start">
+            <div class="col-lg-2 col-md-6 mt-5  text-center text-md-start">
                 <div><img class="footer-img" src="{{ asset('assets/img/newlogo.png') }}" alt=""></div>
             </div>
         </div>

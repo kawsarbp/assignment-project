@@ -6,6 +6,9 @@
 }
 $primary-color: #1E2F5B;
 $white_color: #fff;
+.primary-color{
+    color: $primary-color;
+}
 //marquee{
 //    background: $primary-color;
 //    color: $white_color;

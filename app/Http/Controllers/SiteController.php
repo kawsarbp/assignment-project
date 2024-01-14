@@ -8,18 +8,22 @@ class SiteController extends Controller
 {
     public function index()
     {
-        return view('home/home');
+        return view('home.home');
     }
     public function about()
     {
-        return view('about/about');
+        return view('about.about');
     }
     public function service()
     {
-        return view('service/service');
+        return view('service.service');
     }
     public function contact()
     {
-        return view('contact/contact');
+        return view('contact.contact');
+    }
+    public function terms()
+    {
+        return view('about.condition');
     }
 }
