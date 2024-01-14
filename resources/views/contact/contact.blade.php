@@ -51,7 +51,7 @@
                             <img class="w-100" src="{{ asset('assets/img/services/contact.png') }}" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-7 col-sm-12 border border-white p-5">
+                    <div class="col-lg-7 col-sm-12 p-5 contact-form-border">
                         <form action="" method="POST">
                             <div class="mb-3">
                                 <label for="name">Name</label>
