@@ -1,4 +1,7 @@
 @extends('layout.layout')
+@section('title')
+    Cookies
+@endsection
 @section('content')
     <div class="mymargin">
         <div class="container">

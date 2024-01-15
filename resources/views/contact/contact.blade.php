@@ -1,4 +1,7 @@
 @extends('layout.layout')
+@section('title')
+    Contact
+@endsection
 @section('content')
     <div class="mymargin">
         <div class="container">

@@ -171,6 +171,12 @@
     </div>
 </div>
 
+{{--loading--}}
+<div id="loader" class="loader-container">
+    <div class="loader"></div>
+</div>
+{{--loading--}}
+
 <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
@@ -194,6 +200,19 @@
         });
     });
 </script>
+<!-- Add this script at the end of your Blade file, just before the closing </body> tag -->
+<script>
+    $(document).ready(function() {
+        // Show loader initially
+        $('#loader').show();
+    });
+
+    // Hide loader once the page has finished loading
+    $(window).on('load', function() {
+        $('#loader').hide();
+    });
+</script>
+
 </body>
 
 </html>

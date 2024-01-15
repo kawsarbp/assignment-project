@@ -1,4 +1,7 @@
 @extends('layout.layout')
+@section('title')
+    Home
+@endsection
 @section('content')
     <section id="banner-section">
         <div class="overlay">
