@@ -26,4 +26,12 @@ class SiteController extends Controller
     {
         return view('about.condition');
     }
+    public function privacy()
+    {
+        return view('about.privacy');
+    }
+    public function cookies()
+    {
+        return view('about.cookies');
+    }
 }

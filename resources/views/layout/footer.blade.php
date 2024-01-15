@@ -58,7 +58,7 @@
                         </a>
                     </div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('privacy') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                     <div class="useful-link">
-                        <a href="javascript:void (0)">
+                        <a href="{{ route('cookies') }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  class="bi bi-chevron-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
